@@ -80,6 +80,7 @@ char **strtow(char *str, char *delims)
 int is_delim(char ch, char *delims)
 {
 	int = 0;
+
 	while (delims[i])
 	{
 		if (delims[i] == ch)
